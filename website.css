@@ -137,6 +137,7 @@
     
     .item1 {
       background: lightslategray;
+      width: 23%;
     }
     .container1 {
       display: flex;
@@ -155,6 +156,10 @@
       margin: 1%;
       color: rgb(91, 10, 138);
     }
+    main p {
+      font-size: x-large;
+      text-align: center;
+    }
     footer p {
       text-align: center;
       color: navy;
@@ -166,14 +171,22 @@
       color: navy;
       padding: 3%;
       background-color: rgba(168, 132, 99, 0.486);
-      margin-top: 2;
+      margin-top: 2%;
     }
+    h5 {
+      display: none;
+    }
+    
 
     body {
       background-image:  url(images/bgwebsite-min.jpg);
      }
     header {
       width: 100%;
+    }
+    .homeimg {
+      width: 100%;
+      height: 25%;
     }
 
     /*-----------------------------------------------ABOUT---------------------------------------------*/
@@ -245,6 +258,9 @@
     display: flex;
     margin: 25px;
   }
+  .item5 {
+    width: 40%;
+  }
   b {
     font-size: large;
     color: black;
@@ -272,6 +288,7 @@
   }
   .bastard-pic {
     margin-left: 2%;
+    width: 45%;
   }
      /* Medium devices (landscape tablets, 768px and up) */
      @media only screen and (min-width: 768px) {
@@ -326,6 +343,7 @@
       left: 0;
       width: 100%;
       height: 100%;
+      border: 0;
     }
     h1 {
       text-align: center;
